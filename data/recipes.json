@@ -3,45 +3,94 @@
         "id": 1,
         "chefPicture": "https://img.freepik.com/free-photo/portrait-happy-male-chef-dressed-uniform_171337-5354.jpg?w=1060&t=st=1683138677~exp=1683139277~hmac=ee787bb12b32ae4da9b713b7697603434b3afd5e211802c7a8ba910965b65dc7",
         "chefName": "John Smith",
+        "chefDetails": "John Smith, has 10 years of experience and has 50 recipes with a total of 2000 likes. His recipes include Beef Stroganoff, Chicken Parmesan, and Pesto Pasta.",
         "yearsOfExperience": 10,
         "numRecipes": 50,
         "likes": 2000,
         "recipes": [
             {
-                "recipeName": "Beef Stroganoff",
+                "recipeName": "Kala Bhuna",
                 "ingredients": [
-                    "beef sirloin",
+                    "beef",
                     "onion",
-                    "mushrooms",
-                    "beef broth",
-                    "sour cream"
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Heat a large skillet over medium-high heat. 2. Add the beef and cook until browned, about 5 minutes. 3. Remove the beef from the skillet and set aside. 4. Add the onion and mushrooms to the skillet and cook until tender, about 5 minutes. 5. Add the beef broth and bring to a boil. 6. Reduce the heat and simmer for 10 minutes. 7. Stir in the sour cream and beef. 8. Cook until heated through, about 5 minutes.",
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
+                "rating": 4.8
+            },
+            {
+                "recipeName": "Mejban",
+                "ingredients": [
+                    "beef",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
+                ],
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
                 "rating": 4.5
             },
             {
-                "recipeName": "Chicken Parmesan",
+                "recipeName": "Biryani",
                 "ingredients": [
-                    "chicken breasts",
-                    "breadcrumbs",
-                    "Parmesan cheese",
-                    "spaghetti sauce",
-                    "mozzarella cheese"
-                ],
-                "cookingMethod": "1. Preheat the oven to 375 degrees F. 2. Combine the breadcrumbs and Parmesan cheese in a shallow dish. 3. Coat the chicken in the breadcrumb mixture. 4. Place the chicken in a greased baking dish. 5. Bake for 25 minutes. 6. Pour the spaghetti sauce over the chicken. 7. Sprinkle with mozzarella cheese. 8. Bake for an additional 10 minutes, or until the cheese is melted and bubbly.",
-                "rating": 4.2
-            },
-            {
-                "recipeName": "Pesto Pasta",
-                "ingredients": [
-                    "pasta",
-                    "basil",
+                    "rice",
+                    "chicken",
+                    "onion",
                     "garlic",
-                    "pine nuts",
-                    "Parmesan cheese"
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "cardamom",
+                    "cinnamon",
+                    "bay leaf",
+                    "cloves",
+                    "yogurt",
+                    "lemon juice",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Cook the pasta according to the package instructions. 2. Meanwhile, combine the basil, garlic, pine nuts, and Parmesan cheese in a food processor. 3. Process until finely chopped. 4. Drain the pasta and reserve 1 cup of the pasta water. 5. Return the pasta to the pot and add the pesto. 6. Toss to coat, adding reserved pasta water as needed. 7. Serve immediately.",
-                "rating": 4.7
+                "cookingMethod": [
+                    "1. Soak the rice in water for 30 minutes.",
+                    "2. Heat oil in a pan and fry the onion until golden brown.",
+                    "3. Add garlic and ginger and fry for a few more seconds.",
+                    "4. Add chicken and fry until browned.",
+                    "5. Add cumin, coriander, cardamom, cinnamon, bay leaf, and cloves and fry for a minute.",
+                    "6. Add yogurt, lemon juice, and salt and simmer for a few minutes.",
+                    "7. In a separate pot, bring water to a boil and add the soaked rice.",
+                    "8. Cook the rice until it is almost done.",
+                    "9. Layer the chicken mixture and rice in a pot and cook on low heat until the rice is fully cooked."
+                ],
+                "rating": 4.9
             }
         ]
     },
@@ -49,53 +98,189 @@
         "id": 2,
         "chefPicture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?w=1060&t=st=1683138706~exp=1683139306~hmac=80f66729115320e1ff2047699638f4a2727a87ba6be54814e594e59de07ef127",
         "chefName": "Jane Doe",
+        "chefDetails": "John Smith, has 10 years of experience and has 50 recipes with a total of 2000 likes. His recipes include Beef Stroganoff, Chicken Parmesan, and Pesto Pasta.",
         "yearsOfExperience": 7,
         "numRecipes": 30,
-        "likes": 1500
+        "likes": 1500,
+        "recipes": [
+            {
+                "recipeName": "Kala Bhuna",
+                "ingredients": [
+                    "beef",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
+                ],
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
+                "rating": 4.8
+            },
+            {
+                "recipeName": "Mejban",
+                "ingredients": [
+                    "beef",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
+                ],
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
+                "rating": 4.5
+            },
+            {
+                "recipeName": "Biryani",
+                "ingredients": [
+                    "rice",
+                    "chicken",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "cardamom",
+                    "cinnamon",
+                    "bay leaf",
+                    "cloves",
+                    "yogurt",
+                    "lemon juice",
+                    "oil",
+                    "salt"
+                ],
+                "cookingMethod": [
+                    "1. Soak the rice in water for 30 minutes.",
+                    "2. Heat oil in a pan and fry the onion until golden brown.",
+                    "3. Add garlic and ginger and fry for a few more seconds.",
+                    "4. Add chicken and fry until browned.",
+                    "5. Add cumin, coriander, cardamom, cinnamon, bay leaf, and cloves and fry for a minute.",
+                    "6. Add yogurt, lemon juice, and salt and simmer for a few minutes.",
+                    "7. In a separate pot, bring water to a boil and add the soaked rice.",
+                    "8. Cook the rice until it is almost done.",
+                    "9. Layer the chicken mixture and rice in a pot and cook on low heat until the rice is fully cooked."
+                ],
+                "rating": 4.9
+            }
+        ]
     },
     {
         "id": 3,
         "chefPicture": "https://img.freepik.com/free-photo/shot-handsome-baker-putting-trays-fresh-bread-stand-baking-manufacture-african-american_1157-48108.jpg?w=1060&t=st=1683138734~exp=1683139334~hmac=fb3f70c21df5546652163abbb496df1f2c3e7f2ead80b53dd4cdb7ca206ef207",
         "chefName": "Mark Johnson",
+        "chefDetails": "Mark Johnson, has 12 years of experience and has 70 recipes with a total of 3000 likes. His recipes include Beef Stroganoff, Chicken Parmesan, and Pesto Pasta.",
         "yearsOfExperience": 12,
         "numRecipes": 70,
         "likes": 3000,
         "recipes": [
             {
-                "recipeName": "Beef Stroganoff",
+                "recipeName": "Kala Bhuna",
                 "ingredients": [
-                    "beef sirloin",
+                    "beef",
                     "onion",
-                    "mushrooms",
-                    "beef broth",
-                    "sour cream"
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Heat a large skillet over medium-high heat. 2. Add the beef and cook until browned, about 5 minutes. 3. Remove the beef from the skillet and set aside. 4. Add the onion and mushrooms to the skillet and cook until tender, about 5 minutes. 5. Add the beef broth and bring to a boil. 6. Reduce the heat and simmer for 10 minutes. 7. Stir in the sour cream and beef. 8. Cook until heated through, about 5 minutes.",
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
+                "rating": 4.8
+            },
+            {
+                "recipeName": "Mejban",
+                "ingredients": [
+                    "beef",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
+                ],
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
                 "rating": 4.5
             },
             {
-                "recipeName": "Chicken Parmesan",
+                "recipeName": "Biryani",
                 "ingredients": [
-                    "chicken breasts",
-                    "breadcrumbs",
-                    "Parmesan cheese",
-                    "spaghetti sauce",
-                    "mozzarella cheese"
-                ],
-                "cookingMethod": "1. Preheat the oven to 375 degrees F. 2. Combine the breadcrumbs and Parmesan cheese in a shallow dish. 3. Coat the chicken in the breadcrumb mixture. 4. Place the chicken in a greased baking dish. 5. Bake for 25 minutes. 6. Pour the spaghetti sauce over the chicken. 7. Sprinkle with mozzarella cheese. 8. Bake for an additional 10 minutes, or until the cheese is melted and bubbly.",
-                "rating": 4.2
-            },
-            {
-                "recipeName": "Pesto Pasta",
-                "ingredients": [
-                    "pasta",
-                    "basil",
+                    "rice",
+                    "chicken",
+                    "onion",
                     "garlic",
-                    "pine nuts",
-                    "Parmesan cheese"
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "cardamom",
+                    "cinnamon",
+                    "bay leaf",
+                    "cloves",
+                    "yogurt",
+                    "lemon juice",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Cook the pasta according to the package instructions. 2. Meanwhile, combine the basil, garlic, pine nuts, and Parmesan cheese in a food processor. 3. Process until finely chopped. 4. Drain the pasta and reserve 1 cup of the pasta water. 5. Return the pasta to the pot and add the pesto. 6. Toss to coat, adding reserved pasta water as needed. 7. Serve immediately.",
-                "rating": 4.7
+                "cookingMethod": [
+                    "1. Soak the rice in water for 30 minutes.",
+                    "2. Heat oil in a pan and fry the onion until golden brown.",
+                    "3. Add garlic and ginger and fry for a few more seconds.",
+                    "4. Add chicken and fry until browned.",
+                    "5. Add cumin, coriander, cardamom, cinnamon, bay leaf, and cloves and fry for a minute.",
+                    "6. Add yogurt, lemon juice, and salt and simmer for a few minutes.",
+                    "7. In a separate pot, bring water to a boil and add the soaked rice.",
+                    "8. Cook the rice until it is almost done.",
+                    "9. Layer the chicken mixture and rice in a pot and cook on low heat until the rice is fully cooked."
+                ],
+                "rating": 4.9
             }
         ]
     },
@@ -103,45 +288,94 @@
         "id": 4,
         "chefPicture": "https://img.freepik.com/free-photo/food-industry-expert-adding-fresh-green-herbs-improve-dish-taste-gastronomy-expert-wearing-cooking-uniform-while-preparing-delicious-gourmet-dish-dinner-service-restaurant_482257-44199.jpg?w=1060&t=st=1683138756~exp=1683139356~hmac=91d3685ac0c1877e3b63de66a43df218ec8513109bc65e2f784343c2449a1ef8",
         "chefName": "Maria Garcia",
+        "chefDetails": "Maria Garcia, has 8 years of experience and has 40 recipes with a total of 1800 likes. His recipes include Beef Stroganoff, Chicken Parmesan, and Pesto Pasta.",
         "yearsOfExperience": 8,
         "numRecipes": 40,
         "likes": 1800,
         "recipes": [
             {
-                "recipeName": "Beef Stroganoff",
+                "recipeName": "Kala Bhuna",
                 "ingredients": [
-                    "beef sirloin",
+                    "beef",
                     "onion",
-                    "mushrooms",
-                    "beef broth",
-                    "sour cream"
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Heat a large skillet over medium-high heat. 2. Add the beef and cook until browned, about 5 minutes. 3. Remove the beef from the skillet and set aside. 4. Add the onion and mushrooms to the skillet and cook until tender, about 5 minutes. 5. Add the beef broth and bring to a boil. 6. Reduce the heat and simmer for 10 minutes. 7. Stir in the sour cream and beef. 8. Cook until heated through, about 5 minutes.",
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
+                "rating": 4.8
+            },
+            {
+                "recipeName": "Mejban",
+                "ingredients": [
+                    "beef",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
+                ],
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
                 "rating": 4.5
             },
             {
-                "recipeName": "Chicken Parmesan",
+                "recipeName": "Biryani",
                 "ingredients": [
-                    "chicken breasts",
-                    "breadcrumbs",
-                    "Parmesan cheese",
-                    "spaghetti sauce",
-                    "mozzarella cheese"
-                ],
-                "cookingMethod": "1. Preheat the oven to 375 degrees F. 2. Combine the breadcrumbs and Parmesan cheese in a shallow dish. 3. Coat the chicken in the breadcrumb mixture. 4. Place the chicken in a greased baking dish. 5. Bake for 25 minutes. 6. Pour the spaghetti sauce over the chicken. 7. Sprinkle with mozzarella cheese. 8. Bake for an additional 10 minutes, or until the cheese is melted and bubbly.",
-                "rating": 4.2
-            },
-            {
-                "recipeName": "Pesto Pasta",
-                "ingredients": [
-                    "pasta",
-                    "basil",
+                    "rice",
+                    "chicken",
+                    "onion",
                     "garlic",
-                    "pine nuts",
-                    "Parmesan cheese"
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "cardamom",
+                    "cinnamon",
+                    "bay leaf",
+                    "cloves",
+                    "yogurt",
+                    "lemon juice",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Cook the pasta according to the package instructions. 2. Meanwhile, combine the basil, garlic, pine nuts, and Parmesan cheese in a food processor. 3. Process until finely chopped. 4. Drain the pasta and reserve 1 cup of the pasta water. 5. Return the pasta to the pot and add the pesto. 6. Toss to coat, adding reserved pasta water as needed. 7. Serve immediately.",
-                "rating": 4.7
+                "cookingMethod": [
+                    "1. Soak the rice in water for 30 minutes.",
+                    "2. Heat oil in a pan and fry the onion until golden brown.",
+                    "3. Add garlic and ginger and fry for a few more seconds.",
+                    "4. Add chicken and fry until browned.",
+                    "5. Add cumin, coriander, cardamom, cinnamon, bay leaf, and cloves and fry for a minute.",
+                    "6. Add yogurt, lemon juice, and salt and simmer for a few minutes.",
+                    "7. In a separate pot, bring water to a boil and add the soaked rice.",
+                    "8. Cook the rice until it is almost done.",
+                    "9. Layer the chicken mixture and rice in a pot and cook on low heat until the rice is fully cooked."
+                ],
+                "rating": 4.9
             }
         ]
     },
@@ -149,45 +383,94 @@
         "id": 5,
         "chefPicture": "https://img.freepik.com/free-photo/portrait-male-chef-kitchen_23-2149646278.jpg?w=1060&t=st=1683138782~exp=1683139382~hmac=5bffcbfd5407f25d9405b353bed247a485a92e2faa1e16aa508b32d10707dd0c",
         "chefName": "David Lee",
+        "chefDetails": "David Lee, has 15 years of experience and has 90 recipes with a total of 4000 likes. His recipes include Beef Stroganoff, Chicken Parmesan, and Pesto Pasta.",
         "yearsOfExperience": 15,
         "numRecipes": 90,
         "likes": 4000,
         "recipes": [
             {
-                "recipeName": "Beef Stroganoff",
+                "recipeName": "Kala Bhuna",
                 "ingredients": [
-                    "beef sirloin",
+                    "beef",
                     "onion",
-                    "mushrooms",
-                    "beef broth",
-                    "sour cream"
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Heat a large skillet over medium-high heat. 2. Add the beef and cook until browned, about 5 minutes. 3. Remove the beef from the skillet and set aside. 4. Add the onion and mushrooms to the skillet and cook until tender, about 5 minutes. 5. Add the beef broth and bring to a boil. 6. Reduce the heat and simmer for 10 minutes. 7. Stir in the sour cream and beef. 8. Cook until heated through, about 5 minutes.",
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
+                "rating": 4.8
+            },
+            {
+                "recipeName": "Mejban",
+                "ingredients": [
+                    "beef",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
+                ],
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
                 "rating": 4.5
             },
             {
-                "recipeName": "Chicken Parmesan",
+                "recipeName": "Biryani",
                 "ingredients": [
-                    "chicken breasts",
-                    "breadcrumbs",
-                    "Parmesan cheese",
-                    "spaghetti sauce",
-                    "mozzarella cheese"
-                ],
-                "cookingMethod": "1. Preheat the oven to 375 degrees F. 2. Combine the breadcrumbs and Parmesan cheese in a shallow dish. 3. Coat the chicken in the breadcrumb mixture. 4. Place the chicken in a greased baking dish. 5. Bake for 25 minutes. 6. Pour the spaghetti sauce over the chicken. 7. Sprinkle with mozzarella cheese. 8. Bake for an additional 10 minutes, or until the cheese is melted and bubbly.",
-                "rating": 4.2
-            },
-            {
-                "recipeName": "Pesto Pasta",
-                "ingredients": [
-                    "pasta",
-                    "basil",
+                    "rice",
+                    "chicken",
+                    "onion",
                     "garlic",
-                    "pine nuts",
-                    "Parmesan cheese"
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "cardamom",
+                    "cinnamon",
+                    "bay leaf",
+                    "cloves",
+                    "yogurt",
+                    "lemon juice",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Cook the pasta according to the package instructions. 2. Meanwhile, combine the basil, garlic, pine nuts, and Parmesan cheese in a food processor. 3. Process until finely chopped. 4. Drain the pasta and reserve 1 cup of the pasta water. 5. Return the pasta to the pot and add the pesto. 6. Toss to coat, adding reserved pasta water as needed. 7. Serve immediately.",
-                "rating": 4.7
+                "cookingMethod": [
+                    "1. Soak the rice in water for 30 minutes.",
+                    "2. Heat oil in a pan and fry the onion until golden brown.",
+                    "3. Add garlic and ginger and fry for a few more seconds.",
+                    "4. Add chicken and fry until browned.",
+                    "5. Add cumin, coriander, cardamom, cinnamon, bay leaf, and cloves and fry for a minute.",
+                    "6. Add yogurt, lemon juice, and salt and simmer for a few minutes.",
+                    "7. In a separate pot, bring water to a boil and add the soaked rice.",
+                    "8. Cook the rice until it is almost done.",
+                    "9. Layer the chicken mixture and rice in a pot and cook on low heat until the rice is fully cooked."
+                ],
+                "rating": 4.9
             }
         ]
     },
@@ -195,45 +478,94 @@
         "id": 6,
         "chefPicture": "https://img.freepik.com/free-photo/chef-kitchen_23-2148006182.jpg?w=1060&t=st=1683138830~exp=1683139430~hmac=80cb4ce154beae6188064a7dcc9657e1decdba8bd4419986d75e33c188e42eba",
         "chefName": "Samantha Chen",
+        "chefDetails": "Samantha Chen, has 5 years of experience and has 20 recipes with a total of 1200 likes. His recipes include Beef Stroganoff, Chicken Parmesan, and Pesto Pasta.",
         "yearsOfExperience": 5,
         "numRecipes": 20,
         "likes": 1200,
         "recipes": [
             {
-                "recipeName": "Beef Stroganoff",
+                "recipeName": "Kala Bhuna",
                 "ingredients": [
-                    "beef sirloin",
+                    "beef",
                     "onion",
-                    "mushrooms",
-                    "beef broth",
-                    "sour cream"
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Heat a large skillet over medium-high heat. 2. Add the beef and cook until browned, about 5 minutes. 3. Remove the beef from the skillet and set aside. 4. Add the onion and mushrooms to the skillet and cook until tender, about 5 minutes. 5. Add the beef broth and bring to a boil. 6. Reduce the heat and simmer for 10 minutes. 7. Stir in the sour cream and beef. 8. Cook until heated through, about 5 minutes.",
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
+                "rating": 4.8
+            },
+            {
+                "recipeName": "Mejban",
+                "ingredients": [
+                    "beef",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "chili powder",
+                    "turmeric",
+                    "tomato",
+                    "green chili",
+                    "oil",
+                    "salt"
+                ],
+                "cookingMethod": [
+                    "1. Heat oil in a pan and fry the onion until golden brown.",
+                    "2. Add garlic and ginger and fry for a few more seconds.",
+                    "3. Add beef and fry until browned.",
+                    "4. Add cumin, coriander, chili powder, and turmeric and fry for a minute.",
+                    "5. Add tomato and green chili and cook until the tomato is softened.",
+                    "6. Add salt and simmer until the beef is tender and the gravy has thickened."
+                ],
                 "rating": 4.5
             },
             {
-                "recipeName": "Chicken Parmesan",
+                "recipeName": "Biryani",
                 "ingredients": [
-                    "chicken breasts",
-                    "breadcrumbs",
-                    "Parmesan cheese",
-                    "spaghetti sauce",
-                    "mozzarella cheese"
-                ],
-                "cookingMethod": "1. Preheat the oven to 375 degrees F. 2. Combine the breadcrumbs and Parmesan cheese in a shallow dish. 3. Coat the chicken in the breadcrumb mixture. 4. Place the chicken in a greased baking dish. 5. Bake for 25 minutes. 6. Pour the spaghetti sauce over the chicken. 7. Sprinkle with mozzarella cheese. 8. Bake for an additional 10 minutes, or until the cheese is melted and bubbly.",
-                "rating": 4.2
-            },
-            {
-                "recipeName": "Pesto Pasta",
-                "ingredients": [
-                    "pasta",
-                    "basil",
+                    "rice",
+                    "chicken",
+                    "onion",
                     "garlic",
-                    "pine nuts",
-                    "Parmesan cheese"
+                    "ginger",
+                    "cumin",
+                    "coriander",
+                    "cardamom",
+                    "cinnamon",
+                    "bay leaf",
+                    "cloves",
+                    "yogurt",
+                    "lemon juice",
+                    "oil",
+                    "salt"
                 ],
-                "cookingMethod": "1. Cook the pasta according to the package instructions. 2. Meanwhile, combine the basil, garlic, pine nuts, and Parmesan cheese in a food processor. 3. Process until finely chopped. 4. Drain the pasta and reserve 1 cup of the pasta water. 5. Return the pasta to the pot and add the pesto. 6. Toss to coat, adding reserved pasta water as needed. 7. Serve immediately.",
-                "rating": 4.7
+                "cookingMethod": [
+                    "1. Soak the rice in water for 30 minutes.",
+                    "2. Heat oil in a pan and fry the onion until golden brown.",
+                    "3. Add garlic and ginger and fry for a few more seconds.",
+                    "4. Add chicken and fry until browned.",
+                    "5. Add cumin, coriander, cardamom, cinnamon, bay leaf, and cloves and fry for a minute.",
+                    "6. Add yogurt, lemon juice, and salt and simmer for a few minutes.",
+                    "7. In a separate pot, bring water to a boil and add the soaked rice.",
+                    "8. Cook the rice until it is almost done.",
+                    "9. Layer the chicken mixture and rice in a pot and cook on low heat until the rice is fully cooked."
+                ],
+                "rating": 4.9
             }
         ]
     }
