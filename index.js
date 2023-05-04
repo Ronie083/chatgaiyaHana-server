@@ -20,6 +20,13 @@ app.get('/recipes', (req, res) => {
     res.send(recipes)
 })
 
+app.get('/recipes/:id', (req, res) =>{
+    const id = parseInt(req.params.id);
+    console.log(id);
+    const chefRecipe = recipes.find(c => c.id === id);
+    res.send(chefRecipe);
+})
+
 app.listen(port, () => {
     console.log(`Chatgaiya hana API is running on port: ${port}`)
 })
